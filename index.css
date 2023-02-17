@@ -1,0 +1,81 @@
+#header img {
+    width: 120px;
+}
+
+#header li a{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#header li a:hover{
+    color: #e81f76;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel .overlay h1 {
+    color: #40B4E5;
+    font-weight: bold;
+}
+
+section h1 {
+    color: #40B4E5;
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+section p {
+    font-weight: 600;
+    color: black;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: justify;
+}
+
+.cards {
+    padding: 40px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+#footer {
+    background: #e81f76;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+#footer a:hover {
+    color: plum;
+}
+
